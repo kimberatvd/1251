@@ -1,0 +1,40 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2889709, 2014-09-25T10:29:35-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: FuturaBT-Book by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/futura/book/
+ * 
+ * Webfont: FuturaBT-BookItalic by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/futura/book-italic/
+ * 
+ * Webfont: FuturaBT-Heavy by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/futura/heavy/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2889709
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2c17ed");
+
+  
+@font-face {font-family: 'FuturaBT-Book';src: url('2C17ED_0_0.eot');src: url('2C17ED_0_0.eot?#iefix') format('embedded-opentype'),url('2C17ED_0_0.woff') format('woff'),url('2C17ED_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'FuturaBT-BookItalic';src: url('2C17ED_1_0.eot');src: url('2C17ED_1_0.eot?#iefix') format('embedded-opentype'),url('2C17ED_1_0.woff') format('woff'),url('2C17ED_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'FuturaBT-Heavy';src: url('2C17ED_2_0.eot');src: url('2C17ED_2_0.eot?#iefix') format('embedded-opentype'),url('2C17ED_2_0.woff') format('woff'),url('2C17ED_2_0.ttf') format('truetype');}
+ 

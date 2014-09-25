@@ -1,0 +1,10 @@
+Title: contact
+----
+Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+----
+Address: **1251 CAPITAL GROUP LLC**
+83 Newbury Street, 3rd Floor
+Boston, MA 02116
++1 617 273 9482
+
+(email:info@1251capitalgroup.com)

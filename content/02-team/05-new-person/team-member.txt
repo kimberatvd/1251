@@ -1,0 +1,9 @@
+﻿Title: New Person
+
+----
+
+Name: New Person
+
+----
+
+Bio: biography

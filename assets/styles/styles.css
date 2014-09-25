@@ -1,0 +1,230 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  height: 101%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: 'FuturaBT-Book', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  background: #fff;
+  color: #222;
+  width: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+a,
+a:hover,
+a:active,
+a:visited {
+  outline: 0px;
+}
+a:hover {
+  color: #777;
+}
+em {font-family: 'FuturaBT-BookItalic', Helvetica, Arial, sans-serif;}
+img {
+  outline: 0;
+  border: 0;
+}
+h1 {
+  font-family: 'FuturaBT-Heavy', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #222;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+}
+h2 {
+  font-family: 'FuturaBT-Heavy', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #222;
+  margin: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: normal;
+}
+h3 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 21px;
+}
+h4 {
+  color: red;
+  font-weight: normal;
+}
+p {
+  margin-bottom: 20px;
+}
+
+header {
+  position: fixed;
+  top:0; left:0;
+  width: 90%;
+  height:20px;
+  padding: 10px 5%;
+  overflow: hidden;
+  background: #000;
+  
+  font-size: 16px;
+  line-height: 20px;
+  color:#fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+header h1 {
+  float:left;
+  font-size: 16px;
+  line-height: 20px;
+  margin:0;
+}
+
+header a, nav a {text-decoration: none;}
+
+nav {float:right;}
+
+nav li {
+  list-style: none;
+  margin-right: 20px;
+  float: left;
+}
+
+nav li a.active {
+  color: red;
+}
+
+article {
+  width: 90%;
+  max-width: 970px;
+  padding: 7% 5% 5% 5%;
+  margin: 0 auto;
+}
+
+/*** HOME ***/
+section.home{
+  height:100vh;
+  background: url('/assets/images/pattern.svg') #000 repeat center center fixed; 
+  background-size: 500px 300px;
+
+
+  position: fixed;
+  width: 100%;
+}
+
+section.home article {
+  width: 100%;
+  margin-top: 20vh;
+}
+
+section.home img {
+display: block;
+width: 200px; 
+margin: 0 auto 25vh auto;
+}
+
+section.home .menu {
+  width:100%;
+  max-width: 970px;
+  border-top: 1px solid #fff;
+} 
+
+section.home .menu p {
+  padding:20px;
+  font-size: 16px;
+  line-height: 20px;
+  color:#fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+section.home .menu p a {
+  text-decoration: none;
+  margin: 15px;
+}
+
+/*** PHILOSOPHY ***/
+
+section.philosophy{
+  /*margin-top: 75vh;*/
+  padding: 15vh 0 40px 0;
+  background: url('/assets/images/pattern.png') repeat center center; 
+}
+
+.philosophy article {
+  padding-top: 10%;
+}
+
+/*** TEAM ***/
+
+section.team{
+  text-align: center;
+}
+
+.team .bio {
+  float: left;
+  width: 465px;
+  margin-right: 40px;
+  margin-bottom:40px;
+}
+
+.team .bio img {width: 100%;}
+
+.team .bio p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.team .bio.last-in-row {
+  margin-right: 0;
+}
+
+
+
+/*** CONTACT ***/
+
+section.contact{
+  background: #404040;
+  color: #fff;
+  text-align: center;
+}
+
+.contact h1 { color: #fff;}
+
+.contact article span.address {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid red;
+  font-size: 13px;
+  color: #222;
+}
+footer a {
+  color: red;
+}
+footer a:hover {
+  color: #222;
+}
+
+.clear {clear:both;}

@@ -1,0 +1,14 @@
+@media (max-width: 1080px) {
+  article {max-width: 700px}
+  .team .bio {width: 47%;margin-right: 6%;}
+  /*.team .bio img {width: 330px;}*/
+}
+
+@media (max-width: 780px) {
+  article, section.home article {width: auto;}
+}
+
+@media (max-width: 500px) {
+  .team .bio {width: 100%;margin-right:0;float:none;}
+
+}
