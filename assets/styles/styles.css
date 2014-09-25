@@ -1,3 +1,6 @@
+testing
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -116,7 +119,7 @@ article {
 /*** HOME ***/
 section.home{
   height:100vh;
-  background: url('/assets/images/pattern.svg') #000 repeat center center fixed; 
+  background: url('assets/images/pattern.svg') #000 repeat center center fixed; 
   background-size: 500px 300px;
 
 
