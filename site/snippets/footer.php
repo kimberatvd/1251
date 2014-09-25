@@ -10,6 +10,15 @@ if (myWindowSize >= 500) { //if theyre not on mobile run the following script
 	})
 }
 
+$('.hamburger').click(function(){
+	$('nav').slideToggle('slow');
+});
+
+if (myWindowSize <=500) {
+	$('nav ul li').click(function(){
+		$('nav').hide();	
+	});
+}
 </script>
 
 </body>
