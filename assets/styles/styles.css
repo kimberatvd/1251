@@ -116,7 +116,7 @@ article {
 /*** HOME ***/
 section.home{
   height:100vh;
-  background: url('/assets/images/pattern.svg') #000 repeat center center fixed; 
+  background: url('/1251/assets/images/pattern.svg') #000 repeat center center fixed;  /*remove '/1251' when not in subfolder!! */ 
   background-size: 500px 300px;
 
 
@@ -161,7 +161,7 @@ section.home .menu p a {
 section.philosophy{
   /*margin-top: 75vh;*/
   padding: 15vh 0 40px 0;
-  background: url('/assets/images/pattern.png') repeat center center; 
+  background: url('/1251/assets/images/pattern.png') repeat center center; /*remove '/1251' when not in subfolder!! */ 
 }
 
 .philosophy article {
