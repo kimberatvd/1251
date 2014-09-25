@@ -7,6 +7,7 @@
   <meta name="description" content="<?php echo html($site->description()) ?>" />
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="initial-scale=1" />
 
   <?php echo css('assets/styles/styles.css') ?>
   <?php echo css('assets/styles/responsive-styles.css') ?>

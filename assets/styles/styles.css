@@ -39,6 +39,7 @@ h1 {
   font-size: 20px;
   line-height: 20px;
   color: #222;
+  font-weight:normal;
   margin-bottom: 40px;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -126,13 +127,13 @@ section.home{
 
 section.home article {
   width: 100%;
-  margin-top: 20vh;
+  margin-top: 15vh;
 }
 
 section.home img {
 display: block;
 width: 200px; 
-margin: 0 auto 25vh auto;
+margin: 0 auto 20vh auto;
 }
 
 section.home .menu {
@@ -160,7 +161,7 @@ section.home .menu p a {
 
 section.philosophy{
   /*margin-top: 75vh;*/
-  padding: 15vh 0 40px 0;
+  padding: 20vh 0 40px 0;
   background: url('/1251/assets/images/pattern.png') repeat center center; /*remove '/1251' when not in subfolder!! */ 
 }
 
