@@ -18,6 +18,7 @@
 @media (max-width: 500px) , (max-width:780px) and (orientation:landscape){
 	body {font-size: 20px;}
 
+	header h1 {display: none;}
 	article, section.home article, section.philosophy article, section.contact article {padding: 75px 5%; height:auto;}
 	section, section.home, section.philosophy, section.team, section.contact {
 		height:auto !important;

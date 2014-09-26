@@ -1,7 +1,4 @@
-<script>
-
 var myWindowSize = $(window).width();
-var myWindowHeight = $(window).height();
 
 if (myWindowSize >= 500) { //if theyre not on mobile run the following script
 	$(window).scroll(function(i){
@@ -19,9 +16,13 @@ if (myWindowSize <=500) {
 	$('nav ul li').click(function(){
 		$('nav').hide();	
 	});
+
+	$(window).scroll(function(i){
+	    var scrollVar = $(window).scrollTop();
+	    if (scrollVar >= 300 ) {
+	    	$('header h1').show('slow');
+	    } else {
+	    	$('header h1').hide('slow');
+	    }
+	});
 }
-</script>
-
-</body>
-
-</html>

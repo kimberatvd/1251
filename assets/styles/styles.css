@@ -71,7 +71,7 @@ h4 {
 p {
   margin-bottom: 20px;
 }
-.small {font-size: 13px;}
+.small p{font-size: 13px;margin-top: 40px;}
 
 header {
   position: fixed;
@@ -124,7 +124,6 @@ section.home{
   height:100vh;
   background: url('/assets/images/pattern.svg') #000 repeat center center fixed;
   background-size: 650px 390px;
-
 
   position: fixed;
   width: 100%;
