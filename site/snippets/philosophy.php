@@ -1,5 +1,5 @@
 <section class="philosophy">
-<a id="<?php echo html($data->title()) ?>"></a>
+<a id="<?php echo html($data->title()) ?>" class="anchor"></a>
 
   <article>
     <h1><?php echo html($data->title()) ?></h1>

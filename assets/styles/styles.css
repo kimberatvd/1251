@@ -18,7 +18,9 @@ body {
 
 a {
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom:1px dotted;
 }
 a,
 a:hover,
@@ -69,10 +71,13 @@ h4 {
 p {
   margin-bottom: 20px;
 }
+.small {font-size: 13px;}
 
 header {
   position: fixed;
   top:0; left:0;
+  z-index: 200;
+
   width: 90%;
   height:20px;
   padding: 10px 5%;
@@ -93,7 +98,7 @@ header h1 {
   margin:0;
 }
 
-header a, nav a {text-decoration: none;}
+header a, nav a {text-decoration: none;border:none;margin-bottom:0;}
 
 nav {float:right;}
 
@@ -117,7 +122,7 @@ article {
 /*** HOME ***/
 section.home{
   height:100vh;
-  background: url('/1251/assets/images/pattern.svg') #000 repeat center center fixed;  /*remove '/1251' when not in subfolder!! */ 
+  background: url('/assets/images/pattern.svg') #000 repeat center center fixed;
   background-size: 650px 390px;
 
 
@@ -165,6 +170,7 @@ section.home .menu p {
 section.home .menu p a {
   text-decoration: none;
   margin: 15px;
+  border:none;
 }
 
 /*** PHILOSOPHY ***/
@@ -173,7 +179,7 @@ section.philosophy{
   /*margin-top: 75vh;*/
   padding: 20vh 0 40px 0;
   height: 90vh;
-  background: url('/1251/assets/images/pattern-light.svg') repeat center center fixed;  /*remove '/1251' when not in subfolder!! */ 
+  background: url('/assets/images/pattern-light.svg') repeat center center fixed; 
   background-size: 650px 390px;
 }
 
@@ -189,6 +195,7 @@ section.philosophy{
 
 section.team{
   text-align: center;
+  box-shadow: 0px 0px 30px #ddd;
 }
 
 .team .bio {
@@ -219,7 +226,7 @@ section.contact{
   color: #fff;
   text-align: center;
   height: 100vh;
-  background: url('/1251/assets/images/pattern-dark.svg') #404040 repeat center center fixed;  /*remove '/1251' when not in subfolder!! */ 
+  background: url('/assets/images/pattern-dark.svg') #404040 repeat center center fixed; 
   background-size: 650px 390px;
 }
 

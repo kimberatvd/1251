@@ -4,7 +4,7 @@
 
   <article>
     <div class="logo">
-    	<img src="/1251/assets/images/logo.png" /><!--remove /1251 when not in subfolder-->
+    	<img src="/assets/images/logo.png" />
     </div>
 
     <?php snippet('menu') ?>
