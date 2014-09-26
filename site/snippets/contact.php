@@ -5,6 +5,7 @@
     <h1><?php echo html($data->title()) ?></h1>
     <?php echo kirbytext($data->text()) ?>
     <span class="address"><?php echo kirbytext($data->address()) ?></span>
+    <span class="small"><?php echo kirbytext($site->copyright()) ?></span>
   </article>
 
 </section>
