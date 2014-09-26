@@ -118,32 +118,28 @@ article {
 section.home{
   height:100vh;
   background: url('/1251/assets/images/pattern.svg') #000 repeat center center fixed;  /*remove '/1251' when not in subfolder!! */ 
-  background-size: 500px 300px;
+  background-size: 650px 390px;
 
 
   position: fixed;
   width: 100%;
+  z-index: 50;
 }
 
 section.home article {
   width: 100%;
   height: 70vh;
-  text-align: center;  /* align the inline(-block) elements horizontally */
-/*  font: 0/0 a;          remove the gap between inline(-block) elements 
-*/}
-
-section.home article:before {    /* create a full-height inline block pseudo=element */
-    content: ' ';
-    display: inline-block;
-    vertical-align: middle;  /* vertical alignment of the inline element */
-    height: 100%;
 }
 
 section.home .logo {
   height: 237px;
   width: 200px; 
-  display: inline-block;
-  vertical-align: middle;  /* vertical alignment of the inline element */
+  margin: 0 auto;
+  position: relative;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 section.home .menu {
@@ -177,11 +173,16 @@ section.philosophy{
   /*margin-top: 75vh;*/
   padding: 20vh 0 40px 0;
   height: 90vh;
-  background: url('/1251/assets/images/pattern.png') repeat center center; /*remove '/1251' when not in subfolder!! */ 
+  background: url('/1251/assets/images/pattern-light.svg') repeat center center fixed;  /*remove '/1251' when not in subfolder!! */ 
+  background-size: 650px 390px;
 }
 
 .philosophy article {
-  padding-top: 10%;
+  position: relative;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /*** TEAM ***/
@@ -215,9 +216,19 @@ section.team{
 /*** CONTACT ***/
 
 section.contact{
-  background: #404040;
   color: #fff;
   text-align: center;
+  height: 100vh;
+  background: url('/1251/assets/images/pattern-dark.svg') #404040 repeat center center fixed;  /*remove '/1251' when not in subfolder!! */ 
+  background-size: 650px 390px;
+}
+
+.contact article {
+  position: relative;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .contact h1 { color: #fff;}
