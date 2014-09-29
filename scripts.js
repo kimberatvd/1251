@@ -12,17 +12,17 @@ $('.hamburger').click(function(){
 	$('nav').slideToggle('slow');
 });
 
-// if (myWindowSize <=500) {
-// 	$('nav ul li').click(function(){
-// 		$('nav').hide();	
-// 	});
+if (myWindowSize <=500) {
+	$('nav ul li').click(function(){
+		$('nav').hide();	
+	});
 
-// 	$(window).scroll(function(i){
-// 	    var scrollVar = $(window).scrollTop();
-// 	    if (scrollVar >= 300 ) {
-// 	    	$('header h1').show('slow');
-// 	    } else {
-// 	    	$('header h1').hide('slow');
-// 	    }
-// 	});
-// }
+	$(window).scroll(function(i){
+	    var scrollVar = $(window).scrollTop();
+	    if (scrollVar >= 300 ) {
+	    	$('header h1').show('slow');
+	    } else {
+	    	$('header h1').hide('slow');
+	    }
+	});
+}

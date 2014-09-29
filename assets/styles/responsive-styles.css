@@ -10,10 +10,6 @@
   article, section.home article {width: auto;}
 }
 
- {
-
-
-}
 
 @media (max-width: 500px) , (max-width:780px) and (orientation:landscape){
 	body {font-size: 20px;}
