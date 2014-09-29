@@ -1,6 +1,12 @@
 var myWindowSize = $(window).width();
+var myWindowHeight = $(window).height();
 
-if (myWindowSize >= 500) { //if theyre not on mobile run the following script
+function isiPad(){
+    return (navigator.platform.indexOf("iPad") != -1);
+}
+
+
+if(!isiPad() && myWindowSize >= 500) { //if theyre not on mobile run the following script
 	$(window).scroll(function(i){
 	    var scrollVar = $(window).scrollTop();
 	    $('.home').css({'top': .7*scrollVar });

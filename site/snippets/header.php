@@ -24,7 +24,7 @@
   <header>
     <h1><a href="<?php echo url() ?>">1251 CAPITAL GROUP</a></h1> 
 
-    <img src="/assets/images/hamburger.svg" class="mobile hamburger"/>
+    <img src="/assets/images/hamburger.png" class="mobile hamburger"/>
     <nav class="menu">
 
 
