@@ -9,14 +9,14 @@
   <meta name="robots" content="index, follow" />
   <meta name="viewport" content="initial-scale=1" />
 
-  <!--<?php echo css('assets/styles/styles.css') ?>-->
+  <?php echo css('assets/styles/styles.css') ?>
   <?php echo css('assets/styles/responsive-styles.css') ?>
   <?php echo css('assets/webfonts/webfonts.css') ?>
 
 
   <!--include jquery library-->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <!--<script src="/assets/js/scripts.js"></script>-->
+  <script src="/assets/js/scripts.js"></script>
 
 </head>
 
@@ -25,7 +25,7 @@
   <header>
     <h1><a href="<?php echo url() ?>">1251 CAPITAL GROUP</a></h1> 
 
-    <img src="/assets/images/hamburger.svg" class="mobile hamburger"/>
+    <img src="/assets/images/hamburger.png" class="mobile hamburger"/>
     <nav class="menu">
 
 
