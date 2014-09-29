@@ -122,7 +122,7 @@ article {
 /*** HOME ***/
 section.home{
   height:100vh;
-  background: url('/assets/images/pattern.svg') #000 repeat center center fixed;
+  background: url('/assets/images/pattern.png') #000 repeat center center fixed;
   background-size: 650px 390px;
 
   position: fixed;
@@ -178,7 +178,7 @@ section.philosophy{
   /*margin-top: 75vh;*/
   padding: 20vh 0 40px 0;
   height: 90vh;
-  background: url('/assets/images/pattern-light.svg') repeat center center fixed; 
+  background: url('/assets/images/pattern-light.png') repeat center center fixed; 
   background-size: 650px 390px;
 }
 
@@ -225,7 +225,7 @@ section.contact{
   color: #fff;
   text-align: center;
   height: 100vh;
-  background: url('/assets/images/pattern-dark.svg') #404040 repeat center center fixed; 
+  background: url('/assets/images/pattern-dark.png') #404040 repeat center center fixed; 
   background-size: 650px 390px;
 }
 
