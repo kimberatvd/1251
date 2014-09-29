@@ -1,83 +1,25 @@
 @media (max-width: 1080px) {
-  article, section.home .menu {max-width: 700px}
+  article {max-width: 700px}
   .team .bio {width: 47%;margin-right: 6%;}
+  /*.team .bio img {width: 330px;}*/
 }
 
 
 
 @media (max-width: 780px) {
   article, section.home article {width: auto;}
-  section.home .menu {width: 90%}
 }
 
-/*ipad landscape and short desktop*/
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+ {
 
-  article, section.home article, section.philosophy article, section.contact article {padding: 75px 5%; height:auto;}
-  section, section.home, section.philosophy, section.team, section.contact {
-    height:auto !important;
-    position:static;
-    background-attachment: scroll;
-  }
-
-  /*home page*/
-  section.home article {margin-top: 0;min-height: 400px}
-  section.home .logo {
-  height: 237px;
-  width: 200px; 
-  margin: 50px auto 0 auto;
-  position: static;
-  top: auto;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-  }
-
-  section.home .menu {display: none;}
-
-  /*philosophy*/
-  section.philosophy {
-    padding:0; margin: 0;
-    position:static;
-    background-attachment: scroll;
-  }
-
-  .philosophy article {
-  position: static;
-  top: auto;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-  }
-
-
-  /*contact*/
-  section.contact {
-    padding:0; margin: 0;
-    position:static;
-    background-attachment: scroll;
-  }
-
-  .contact article {
-  position: static;
-  top: auto;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-  }
-
-  .contact article span.address{
-    font-size: 14px;
-  }
 
 }
 
-
-@media (max-width: 725px), (max-width:780px) and (orientation:landscape), {
+@media (max-width: 500px) , (max-width:780px) and (orientation:landscape){
 	body {font-size: 20px;}
 
 	header h1 {display: none;}
-	article, section.home article, section.philosophy article, section.contact article, section.home .menu {padding: 75px 5%; height:auto;}
+	article, section.home article, section.philosophy article, section.contact article {padding: 75px 5%; height:auto;}
 	section, section.home, section.philosophy, section.team, section.contact {
 		height:auto !important;
 		position:static;
