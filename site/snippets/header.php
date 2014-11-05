@@ -8,6 +8,8 @@
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
   <meta name="viewport" content="initial-scale=1" />
+  
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 
   <?php echo css('assets/styles/styles.css') ?>
   <?php echo css('assets/styles/responsive-styles.css') ?>

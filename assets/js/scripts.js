@@ -11,6 +11,8 @@ if(!isiPad() && myWindowSize >= 500) { //if theyre not on mobile run the followi
 	    var scrollVar = $(window).scrollTop();
 	    $('.home').css({'top': .7*scrollVar });
 	    $('.home').css({'opacity':( 100-scrollVar )/100});
+
+	    // $('header').css({'opacity':( scrollVar )/100});
 	})
 };
 

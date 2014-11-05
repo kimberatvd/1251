@@ -10,7 +10,8 @@
 
 	  	<div class="bio <?php if (($x % 2) == 0) {?> last-in-row <?php } ?>"  > <!--every other bio div should have a class of 'last in row' to remove right margin -->
   		<?php if($team->hasImages()): ?><img src="<?php echo $team->images()->first()->url() ?>"/><?php endif ?>
-    	<h2><?php echo html($team->name()) ?></h2>
+    	<h2><?php echo html($team->title()) ?></h2>
+      <?php if($team->position() != ''): ?><h3><?php echo html($team->position()) ?></h3><?php endif ?>
     	<?php echo kirbytext($team->bio()) ?>
 
 	  	</div>

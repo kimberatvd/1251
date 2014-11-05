@@ -1,4 +1,4 @@
-﻿Title: 1251 Capital Group LLC
+Title: 1251 Capital Group LLC
 
 ----
 
@@ -14,4 +14,4 @@ Keywords:
 
 ----
 
-Copyright: ©(date: Year) 1251 Capital Group
+Copyright: ©(date: Year) 1251 Capital Group. Website design & development: (link: http://visualdialogue.com text: Visual Dialogue popup:yes)

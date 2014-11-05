@@ -80,7 +80,7 @@
 
 
 @media (max-width: 500px) , (max-width:780px) and (orientation:landscape){
-	body {font-size: 20px;}
+	body {font-size: 18px;line-height:25px;}
 
 	header h1 {display: none;}
 	article, section.home article, section.philosophy article, section.contact article section.home .menu {padding: 75px 5%; height:auto;}

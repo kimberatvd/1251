@@ -50,7 +50,7 @@ h1 {
 h2 {
   font-family: 'FuturaBT-Heavy', Helvetica, Arial, sans-serif;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 25px;
   color: #222;
   margin: 20px 0;
   text-transform: uppercase;
@@ -59,10 +59,15 @@ h2 {
   font-weight: normal;
 }
 h3 {
-  font-weight: normal;
+  font-family: 'FuturaBT-Book', Helvetica, Arial, sans-serif;
   font-size: 20px;
+  line-height: 25px;
   color: #222;
-  margin-bottom: 21px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: normal;
 }
 h4 {
   color: red;
@@ -71,12 +76,14 @@ h4 {
 p {
   margin-bottom: 20px;
 }
+
+ul {margin-left:20px;}
 .small p{font-size: 13px;margin-top: 40px;}
 
 header {
   position: fixed;
   top:0; left:0;
-  z-index: 200;
+  z-index: 0;
 
   width: 90%;
   height:20px;
@@ -135,12 +142,12 @@ section.home article {
   height: 70vh;
 }
 
-section.home .logo {
+.logo {
   height: 237px;
   width: 200px; 
   margin: 0 auto;
   position: relative;
-  top: 45%;
+  top: 50%; 
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -239,12 +246,22 @@ section.contact{
 
 .contact h1 { color: #fff;}
 
-.contact article span.address {
+.contact article .address {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
   font-size: 16px;
+  margin:60px 0 40px 0;
 }
+
+.copyr {
+  color:#ccc;  
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 60px;
+}
+.copyr a {text-decoration: none; border:0;color:#ccc;}
+.copyr a:hover {color:#fff;}
 
 footer {
   padding-top: 20px;
