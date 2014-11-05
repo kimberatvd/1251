@@ -1,10 +1,25 @@
-Title: contact
+﻿Title: contact
+
 ----
-Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Text: If you own a profitable business and are looking to facilitate an ownership transition or need capital to fund a strategic acquisition or growth initiative, we encourage you to contact us.
+
+We are seeking opportunities in Financial Services (primarily Asset Management, Insurance and Transaction Processing) and across various transaction types. 
+
+Recapitalizations
+Management Buyouts
+Minority Investments for Growth
+Capital for Acquisitions
+Purchasing Stock from Owners
+Corporate Divestitures
+
+We look forward to discussing the opportunity with you.
+
 ----
+
 Address: **1251 CAPITAL GROUP**
 83 Newbury Street, 3rd Floor
 Boston, MA 02116
-+1 617 273 9482
+617 273 9482
 
-(email:info@1251capitalgroup.com)
+For general inquiries please contact us at (email:info@1251capitalgroup.com)

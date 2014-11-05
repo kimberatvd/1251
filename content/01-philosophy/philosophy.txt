@@ -1,3 +1,13 @@
-Title: philosophy
+﻿Title: about us
+
 ----
-Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+Text: 1251 Capital Group is a holding company formed with the primary objective of delivering long-term, real returns in Financial Services to its shareholders.  We established our company to invest the capital of our founders and a select group of like-minded, outside investors.  Prior to launching 1251 Capital Group, our founders spent a combined 40 years investing capital on behalf of two leading private equity investment firms.  In founding 1251 Capital Group, we set out to operate in a way that is fundamentally different from the traditional private equity approach.  
+
+- Our investment activities are never governed by arbitrary investment periods or exit time horizons. We invest and make operating decisions as if we will own an asset forever and have a singular focus on building long-term business value.
+ 
+- We own a concentrated group of companies in sectors we thoroughly understand (Asset Management, Insurance and Transaction Processing). We believe that great companies and management teams are extremely rare, and that a thorough appreciation of a few businesses and teams reduces the risk of making a poor investment decision.   
+
+- We have purposefully matched the duration of our capital with the time horizon of our investment strategy.  Our firm is structured as a holding company with a permanent capital base. The permanency of our capital allows us to focus exclusively on the long-term care of our businesses, often times difficult during periods of high market and economic volatility. Importantly, continuous compounding of capital over decades without the recurring drag of taxes and fees triggered by realized gains creates “structural alpha” versus other investment strategies.
+
+- We have designed our business structure to promote alignment between us, our management teams and our shareholders around the objective of creating shareholder value over decades, not just years.

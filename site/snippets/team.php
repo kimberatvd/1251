@@ -9,7 +9,7 @@
   	<?php foreach($data->children()->visible() as $team): ?> <!--for each of the team subpages echo out the following code -->
 
 	  	<div class="bio <?php if (($x % 2) == 0) {?> last-in-row <?php } ?>"  > <!--every other bio div should have a class of 'last in row' to remove right margin -->
-  		<img src="<?php echo $team->images()->first()->url() ?>"/>
+  		<?php if($team->hasImages()): ?><img src="<?php echo $team->images()->first()->url() ?>"/><?php endif ?>
     	<h2><?php echo html($team->name()) ?></h2>
     	<?php echo kirbytext($team->bio()) ?>
 

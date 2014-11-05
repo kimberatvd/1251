@@ -9,8 +9,14 @@
   article, section.home article {width: auto;}
   section.home .menu {width: 90%}
 }
+/*ipads*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  section.home { background: url('/assets/images/pattern.png') #000 repeat center center fixed; }
+  section.philosophy { background: url('/assets/images/pattern-light.png') repeat center center fixed; }
+  section.contact { background: url('/assets/images/pattern-dark.png') #404040 repeat center center fixed; }
+}
 
-/*ipad landscape and short desktop*/
+/*ipad landscape*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
 
   article, section.home article, section.philosophy article, section.contact article {padding: 75px 5%; height:auto;}
