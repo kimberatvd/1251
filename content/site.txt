@@ -1,16 +1,16 @@
-Title: 1251 Capital Group LLC
+Title: 1251 Capital Group | Financial Services Holding Company
 
 ----
 
-Author: 
+Author: design & development: visual dialogue  | built with: kirby
 
 ----
 
-Description: 
+Description: 1251 Capital Group is a holding company formed to deliver long-term, real returns in Financial Services to its shareholders.
 
 ----
 
-Keywords: 
+Keywords: boston,financial services,1251 capital group,holding,finance
 
 ----
 
