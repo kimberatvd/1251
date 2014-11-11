@@ -3,8 +3,8 @@
 # default blueprint
 
 title: Page
-pages: true
-files: true
+pages: false
+files: false
 fields:
   title: 
     label: Title
